@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Art & Craft",
+        "img": "anc"
+    },
+    {
+        "id": 2,
+        "name": "Food & Beverage",
+        "img": "fnb"
+    },
+    {
+        "id": 3,
+        "name": "Photo & Video",
+        "img": "pnv"
+    },
+    {
+        "id": 4,
+        "name": "Fashion",
+        "img": "fashion"
+    },
+    {
+        "id": 5,
+        "name": "Comic & Game",
+        "img": "cng"
+    },
+    {
+        "id": 6,
+        "name": "Others",
+        "img": "other"
+    }
+]

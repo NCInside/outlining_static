@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "PERANCANGAN BRAND CAMPAIGN \"NATURAL SHOTS IN BASIC STUDIO\" UNTUK MEMPROMOSIKAN STUDIO FOTO 'BASIC STUDIO'",
+        "description": "Basic Studio merupakan bisnis persewaan studio foto di Surabaya Barat dengan konsep Natural Lighting, matahari sebagai pencahayaan utama sehingga hasil foto/ video dapat terlihat lebih aesthetic.",
+        "video": "https://youtube.com/embed/RtR9WoV8Gfs?feature=share",
+        "name": "Nesya Rhenata Gweneal",
+        "nim": "0206041910037",
+        "ig": "@basicstudio",
+        "wa": "+62 81233930959",
+        "qrlink": "https://instagram.com/basicstudio__?igshid=MzRlODBiNWFlZA==",
+        "highlight": true,
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "title": "PERANCANGAN BRAND CAMPAIGN ACHARSMIND DAN MEDIA PROMOSINYA UNTUK MENINGKATKAN KESADARAN MEREK DI KALANGAN TARGET MARKET",
+        "description": "Acharsmind merupakan brand yang memproduksi pakaian reworked yang menggunakan pakaian bekas berkonsep sustainable fashion, menggunakan limitiasi yang luas dan menggunakan illustrasi khas achasrsmind sehingga lebih unik dan dapat bersaing dengan kompetitor lainnya.",
+        "video": "https://www.youtube.com/embed/1phR5DoJ1SI",
+        "name": "Charity Edgina Immanuel",
+        "nim": "0206041910020",
+        "ig": "@Acharsmind",
+        "wa": "Tik Tok: @Acharsmind",
+        "qrlink": "https://linktr.ee/acharsmindd?fbclid=PAAaYFLjxifkTG0HVN-k1ixcQZ-Ycdv7EuR7TmzojcIk8K_tctuP1XBOJeDeg",
+        "highlight": true,
+        "categoryId": 1
+    },
+    {
+        "id": 3,
+        "title": "Perancangan Brand Activation Thavma Studio untuk meningkatkan Engage Audience pada Social Media Thavma Studio",
+        "description": "Permasalahan yang dihadapi Thavma Studio adalah tentang engage audience serta keaktifan pada social media instagram Thavma Studio, yang pada tugas akhir ini akan diselesaikan dengan brand activation. Dengan brand activation, kini Thavma Studio berhasil mengait banyak engage audience dan social media Thavma Srudio terlihat lebih aktif dan interaktif",
+        "video": "https://www.youtube.com/embed/OucRGfZ5l1g",
+        "name": "Fenny Noviarma",
+        "nim": "0206041910041",
+        "ig": "@rylailisa",
+        "wa": "+62-811-309-052-1",
+        "qrlink": "https://instagram.com/thavma.studio?igshid=NTc4MTIwNjQ2YQ==",
+        "highlight": true,
+        "categoryId": 1
+    },
+    {
+        "id": 4,
+        "title": "Perancangan Visualisasi Novel 'Alpheratz Chronicles: Guide to an Uprising' beserta media promosinya sebagai Portofolio untuk Studio Ilustrasi Twilight Ink",
+        "description": "\"Alpheratz Chronicle: Guide to an Uprising\" adalah salah satu project Twilight Ink studio yang berupa visualisasi novel bergenre fantasi.",
+        "video": "https://youtube.com/embed/jVNT5nLVAmI?feature=share",
+        "name": "Atita Sashita",
+        "nim": "0206041910039",
+        "ig": "@slimycreepy",
+        "wa": "+62-8383-052-5336",
+        "qrlink": "https://www.instagram.com/twilightink.studio/",
+        "highlight": true,
+        "categoryId": 1
+    },
+    {
+        "id": 5,
+        "title": "Perancangan Webkomik GitGud untuk Perilaku Toxic saat Bermain Video Game",
+        "description": "Permasalah pada GitGud Comics adalah kurangnya brand awareness terhadap target audiens dan kurangnya perancangan pada media promosi komik, maka diperlunya Product Development yang membantu konten GitGud Comics agar jauh lebih shareable.",
+        "video": "https://www.youtube.com/embed/AH1IufxPXVU",
+        "name": "Melvin Nicholas",
+        "nim": "0206041810058",
+        "ig": "@gitgudcomics.id",
+        "wa": "+62-877-7225-6777",
+        "qrlink": "https://www.instagram.com/gitgudcomics.id/",
+        "highlight": true,
+        "categoryId": 1
+    },
+    {
+        "id": 6,
+        "title": "Perancangan Brand Campaign Halodesign.id untuk Meningkatkan Brand Awareness",
+        "description": "Permasalahan Halodesign.id adalah kurangnya Brand Awareness sehingga diciptakan Brand Campaign melalui instagram melalui kontennya yang bervariasi.",
+        "video": "https://www.youtube.com/embed/kvFlz9caXUA",
+        "name": "Jesslyn Harsojo",
+        "nim": "0206041910025",
+        "ig": "@jesslynharsojo",
+        "wa": "+62-82137603488",
+        "qrlink": "https://me-qr.com/hCZaLXj",
+        "highlight": true,
+        "categoryId": 1
+    }
+]
