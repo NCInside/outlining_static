@@ -24,12 +24,15 @@
                         <div class="shrink-0 flex items-center">
                             <a href="/" class='text-white text-4xl erica'>Outlining<br/>Design</a>
                         </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:pr-20 sm:flex sm:gap-x-20">
+                        <div class="hidden space-x-8 sm:-my-px sm:px-20 sm:flex sm:gap-x-10">
                             <x-navlink :href="route('home')" :active="request()->routeIs('home')">
                                 {{ __('Home') }}
                             </x-navlink>
                             <x-navlink :href="route('index')" :active="request()->routeIs('project.index')">
                                 Student’s<br>Final Project
+                            </x-navlink>
+                            <x-navlink :href="'https://www.uc.ac.id/vcd/'">
+                                VCD’s Website
                             </x-navlink>
                         </div>
                     </div>

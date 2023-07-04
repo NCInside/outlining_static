@@ -32,7 +32,8 @@ class ProjectController extends Controller
     {
         $categories = json_decode(file_get_contents($this->dataPath.'/categories.json'), true);
         $category = $categoryId == 0 ? null : collect($categories)->firstWhere('id', $categoryId);
-        $projects = collect(json_decode(file_get_contents($this->dataPath.'/projects.json'), true));
+        $all_projects = collect(json_decode(file_get_contents($this->dataPath.'/projects.json'), true));
+        $projects = $categoryId == 0 ? $all_projects : $all_projects->where('categoryId', $categoryId);
         $perPage = 6;
         $currentPage = Paginator::resolveCurrentPage();
         $currentPageItems = $projects->slice(($currentPage - 1) * $perPage, $perPage);

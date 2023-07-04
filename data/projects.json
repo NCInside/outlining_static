@@ -10,7 +10,7 @@
         "wa": "+62 81233930959",
         "qrlink": "https://instagram.com/basicstudio__?igshid=MzRlODBiNWFlZA==",
         "highlight": true,
-        "categoryId": 1
+        "categoryId": 3
     },
     {
         "id": 2,
@@ -23,20 +23,20 @@
         "wa": "Tik Tok: @Acharsmind",
         "qrlink": "https://linktr.ee/acharsmindd?fbclid=PAAaYFLjxifkTG0HVN-k1ixcQZ-Ycdv7EuR7TmzojcIk8K_tctuP1XBOJeDeg",
         "highlight": true,
-        "categoryId": 1
+        "categoryId": 4
     },
     {
         "id": 3,
         "title": "Perancangan Brand Activation Thavma Studio untuk meningkatkan Engage Audience pada Social Media Thavma Studio",
         "description": "Permasalahan yang dihadapi Thavma Studio adalah tentang engage audience serta keaktifan pada social media instagram Thavma Studio, yang pada tugas akhir ini akan diselesaikan dengan brand activation. Dengan brand activation, kini Thavma Studio berhasil mengait banyak engage audience dan social media Thavma Srudio terlihat lebih aktif dan interaktif",
-        "video": "https://www.youtube.com/embed/OucRGfZ5l1g",
+        "video": "https://www.youtube.com/embed/lXqv7YD-3vA",
         "name": "Fenny Noviarma",
         "nim": "0206041910041",
         "ig": "@rylailisa",
         "wa": "+62-811-309-052-1",
         "qrlink": "https://instagram.com/thavma.studio?igshid=NTc4MTIwNjQ2YQ==",
-        "highlight": true,
-        "categoryId": 1
+        "highlight": false,
+        "categoryId": 3
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
         "wa": "+62-8383-052-5336",
         "qrlink": "https://www.instagram.com/twilightink.studio/",
         "highlight": true,
-        "categoryId": 1
+        "categoryId": 5
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@
         "wa": "+62-877-7225-6777",
         "qrlink": "https://www.instagram.com/gitgudcomics.id/",
         "highlight": true,
-        "categoryId": 1
+        "categoryId": 5
     },
     {
         "id": 6,
@@ -75,6 +75,228 @@
         "wa": "+62-82137603488",
         "qrlink": "https://me-qr.com/hCZaLXj",
         "highlight": true,
-        "categoryId": 1
+        "categoryId": 6
+    },
+    {
+        "id": 7,
+        "title": "Now All Yours\n(Bakpia WOW)",
+        "description": "Brand Activation ini berguna menimbulkan rasa personal kepada target market UMKM Bakpia WOW. Lewat rasa familiar dan personal itu, Bakpia WOW ingin menyampaikan pesan bahwa Bakpia Kering bukanlah jajanan tradisional yang sudah tidak relevan dengan anak muda. Namun malah sebaliknya.",
+        "video": "https://youtube.com/embed/DbZMAQD6ma8",
+        "name": "Samuela Yosafa Isabel Anritan",
+        "nim": "0206041910010",
+        "ig": "@samuelaisabel",
+        "wa": "+62-8155-977-4131",
+        "qrlink": "https://www.instagram.com/bakpiawow.sby/",
+        "highlight": true,
+        "categoryId": 2
+    },
+    {
+        "id": 8,
+        "title": "Perancangan Brand Activation Bisnis BuyBuy Online Cellular Beserta Media Promosinya untuk Meningkatkan Brand Awareness",
+        "description": "BuyBuy merupakan brand yang masih baru sehingga membutuhkan brand awareness terhadap target marketnya. Oleh karena itu, dirancanglah brand activation dengan nama #Buy4U secara online dan offline yang bertujuan untuk meningkatkan brand awareness.",
+        "video": "https://www.youtube.com/embed/4HnHLJgtDFI",
+        "name": "Ferren Valerie Kurniawan",
+        "nim": "0206041910023",
+        "ig": "@ferrenvalerie_",
+        "wa": "+62-812-3010-9800",
+        "qrlink": "https://www.instagram.com/buybuy.oc/",
+        "highlight": false,
+        "categoryId": 6
+    },
+    {
+        "id": 9,
+        "title": "Perancangan Kampanye #isitllremember Dself Sebagai Media Edukasi Mengenai Kekerasan Perempuan",
+        "description": "Korban kekerasan yang ingin melakukan speak up atau bercerita tetapi ketakutan karena stigma masyarakat. Kampanye #istillremember hadir sebagai wadah untuk menyalurkan suara korban sekaligus memberikan edukasi seputar kekerasan.",
+        "video": "https://www.youtube.com/embed/Sc_TffMAZ-g",
+        "name": "Marietta Wayne",
+        "nim": "0206041910026",
+        "ig": "@The_Wayne10",
+        "wa": "082244795389",
+        "qrlink": "https://www.instagram.com/dself.id/",
+        "highlight": false,
+        "categoryId": 5
+    },
+    {
+        "id": 10,
+        "title": "PERANCANGAN ALBUM FOTO KONSEPTUAL AFTER YOU SEBAGAI PORTOFOLIO PERUSAHAAN TIMELINE PHOTOGRAPHY",
+        "description": "Album foto konseptual After You menggambarkan tentang fase rasa patah hati oleh seseorang yang ditinggalkan.",
+        "video": "https://www.youtube.com/embed/kvFlz9caXUA",
+        "name": "Adinata Haryono",
+        "nim": "20317038",
+        "ig": "@adinataharyono",
+        "wa": "+62-82-232323-530",
+        "qrlink": "https://instagram.com/adinataharyono?igshid=NGExMmI2YTkyZg==",
+        "highlight": false,
+        "categoryId": 3
+    },
+    {
+        "id": 11,
+        "title": "PERANCANGAN BRAND ACTIVATION KONSEP RETRO DENGAN NAMA RHAPSODY UNTUK MENYASAR TARGET AUDIENCE 21-26 TAHUN PRIA DAN WANITA UNTUK CAFÉ SCOFF DI KOTA KEDIRI",
+        "description": "Seduhlur merupakan sebuah Coffee Company  bertempat di Kediri, Jawa Timur. Seduhlur Coffee Co. atau yang biasa disingkat SCOFF berdiri pada  16 Oktober 2019, dimana hingga tahun 2023 telah memiliki dua outlet, produk yang dijual berupa food, beverages dan merchandises SCOFF memiliki konsep desain vintages dan classic dengan colour base gold and black.",
+        "video": "https://youtube.com/embed/Tslb0N3eOiE",
+        "name": "Adandy Nugroho",
+        "nim": "0206041810013",
+        "ig": "@scoffcompany",
+        "wa": "+62817752375177",
+        "qrlink": "https://myqrcode.mobi/9310faf3",
+        "highlight": false,
+        "categoryId": 2
+    },
+    {
+        "id": 12,
+        "title": "Perancangan Website E-catalog Tech-IT Untuk Mengkomunikasikan Produk Kepada Customer",
+        "description": "Pembuatan website e-catalog untuk Tech-IT, sebuah perusahaan yang bergerak di bidang IT. Website dirancang demi mengkomunikasikan dan mempromosikan produk yang tersedia kepada customer dalam jangka luas tanpa membuat customer merasa overwhelmed",
+        "video": "https://www.youtube.com/embed/1K2MvusTDNQ",
+        "name": "Bryan Limansyah",
+        "nim": "0206041810020",
+        "ig": "@Tech-It",
+        "wa": "+62-813-4746-5781",
+        "qrlink": "https://www.techitcomputer.com/",
+        "highlight": false,
+        "categoryId": 6
+    },
+    {
+        "id": 13,
+        "title": "Perancangan Brand Activation dan Media Promosi Wu Creatives untuk Meningkatkan Brand Awareness Konsumen",
+        "description": "Wu Creatives merupakan brand yang baru sehingga memerlukan Brand Awareness. Maka dari itu, dirancanglah Brand Activation berupa online workshop yang bernama The Crafting ReLounge beserta dengan media promosinya yang dapat meningkatkan awareness dan word of mouth.",
+        "video": "https://youtube.com/embed/wE7nyvDExnw",
+        "name": "Connie Utomo",
+        "nim": "0206041910003",
+        "ig": "@wu.creatives",
+        "wa": "+62-822-207-265-52",
+        "qrlink": "https://linktr.ee/wu.creatives",
+        "highlight": false,
+        "categoryId": 5
+    },
+    {
+        "id": 14,
+        "title": "Perancangan Brand Campaign untuk Brand The Fem Things",
+        "description": "The Fem Things adalah brand yang baru saja diluncurkan, maka belum ada orang yang mengenal brand ini. Menggunakan solusi perancangan brand campaign dengan tema “Keep it Simple with The Fem Things pouch” yang menekankan message  terhadap target market yang dituju bahwa segala sesuatu dapat menjadi simpel atau mudah dengan pouch The Fem Things.",
+        "video": "https://www.youtube.com/embed/0qsS0eIJV6g",
+        "name": "Jessica Debra Sentono",
+        "nim": "0206041910034",
+        "ig": "@ithefemthings",
+        "wa": "+62-896-8257-4404",
+        "qrlink": "https://me-qr.com/xAQYLFrY",
+        "highlight": false,
+        "categoryId": 6
+    },
+    {
+        "id": 15,
+        "title": "Perancangan Brand Campaign Buku Cerita Anak Science in Life untuk Anak Usia 4-6 Tahun dengan Media Promosinya",
+        "description": "Brand Science in Life adalah brand baru, sehingga diperlukannya strategi komunikasi untuk menaikkan awareness masyarakat tentang kelebihan-kelebihan yang ditawarkan.\n\nDirancangnya sebuah kampanye bagi anak dan orang tua, berjudul “Science is Fun” yang berisikan informasi seputar sains dengan pelaksanaan event kreativitas anak dan orang tua.",
+        "video": "https://www.youtube.com/embed/v2oYqvBtcwo",
+        "name": "Riska Putri Saswono",
+        "nim": "0206041910054",
+        "ig": "@with_scienceinlife",
+        "wa": "Email:\nwithscienceinlife@gmail.com",
+        "qrlink": "https://www.instagram.com/with_scienceinlife?utm_source=qr",
+        "highlight": false,
+        "categoryId": 5
+    },
+    {
+        "id": 16,
+        "title": "Perancangan Brand Campaign dan Media Promosi untuk Meningkatkan Kesadaran Merek Brand Omnifurr",
+        "description": "Omnifurr adalah brand yang menjual aksesoris rajutan untuk hewan peliharaan dan pemiliknya. Melalui perancangan brand campaign dan media promosi ini, Omnifurr menciptakan brand campaign dengan nama Comfurrtable Fashion.",
+        "video": "https://www.youtube.com/embed/OAbJcImA9hE",
+        "name": "Abhina Salma",
+        "nim": "0206041910050",
+        "ig": "@omnifurr",
+        "wa": "+62-8128-4043-805",
+        "qrlink": "",
+        "highlight": false,
+        "categoryId": 4
+    },
+    {
+        "id": 17,
+        "title": "Perancangan Brand Campaign Keikou On Me Untuk Meningkatkan Brand Awareness",
+        "description": "Keikou adalah brand pakaian rework dengan base baju-baju thrift yang dipadukan dengan ilustrasi berciri khas dan merupakan 1 of 1 product.",
+        "video": "https://youtube.com/embed/I_LeyE1vrec",
+        "name": "MIRANDA SETIABUDI",
+        "nim": "0206041910052",
+        "ig": "@keikou.s",
+        "wa": "+62-8127607853",
+        "qrlink": "https://www.instagram.com/keikou.room/",
+        "highlight": false,
+        "categoryId": 4
+    },
+    {
+        "id": 18,
+        "title": "Perancangan Brand Campaign Bakgor Bobo Cen Beserta Media Promosinya Untuk Meningkatkan Brand Awareness",
+        "description": "Bakgor Bobo Cen adalah UMKM kuliner yang menawarkan cemilan khas pecinan, bakwan goreng (cahyan). Perancangan brand campaign #BukanBakwanBantet dilakukan untuk meningkatkan brand awareness.",
+        "video": "https://youtube.com/embed/iFzAWq3SZ5U",
+        "name": "Shannen",
+        "nim": "0206041910038",
+        "ig": "@bakgor_bobocen",
+        "wa": "+62-8951-5907-075",
+        "qrlink": "https://scnv.io/7qQu?qr=1",
+        "highlight": false,
+        "categoryId": 2
+    },
+    {
+        "id": 19,
+        "title": "Perancangan Brand Campaign Exquisite Beserta Media Promosinya Untuk Meningkatkan Kesadaran Merek",
+        "description": "Exquisite merupakan sebuah brand pakaian berkuda dengan kualitas premium namun dijual dengan harga yang lebih terjangkau",
+        "video": "https://www.youtube.com/embed/YoR216xdmaU",
+        "name": "Thalia Medhawini",
+        "nim": "0206041910016",
+        "ig": "@exquisite.indo",
+        "wa": "+62-877-3902-19012",
+        "qrlink": "https://instagram.com/exquisite.indo?igshid=MzRlODBiNWFlZA==",
+        "highlight": false,
+        "categoryId": 4
+    },
+    {
+        "id": 20,
+        "title": "Perancangan Brand Campaign \"1 Minute for Your Business\" Untuk Menaikkan Brand Awareness Parvis Production",
+        "description": "Karena merupakan brand baru, Parvis Production membutuhkan brand campaign untuk menaikkan awareness. Campaign dirancang menggunakan media sosial Instagram sebagai media promosi dan konten yang dibuat berupa feed dan reels.",
+        "video": "https://youtube.com/embed/2JEaED0mKKM",
+        "name": "Jacob Irwanto",
+        "nim": "0206041910024",
+        "ig": "@parvis.prod",
+        "wa": "+62-8223-472-8303",
+        "qrlink": "https://linktr.ee/parvisprod?utm_source=qr_code",
+        "highlight": false,
+        "categoryId": 3
+    },
+
+    {
+        "id": 21,
+        "title": "Perancangan Brand Campaign untuk Hipafia Productions yang sesuai untuk Teen/Young adults agar meningkatkan Brand Awareness",
+        "description": "Hipafia Productions adalah sebuah tim kecil yang bergerak dalam jasa editing video untuk conten creator kecil yang tidak punyak skill maupun waktu untuk editing video mereka sendiri. Tujuan Hipafia adalah untuk membantu konten kreator kecil agar mereka bisa lebih fokus ke hal lain.",
+        "video": "https://www.youtube.com/embed/hF18AYSY34Q",
+        "name": "Jason Delano RM",
+        "nim": "0206041810051",
+        "ig": "@hipafia.prod",
+        "wa": "+62-8133-553-5613",
+        "qrlink": "https://me-qr.com/ntGYUsV8",
+        "highlight": false,
+        "categoryId": 3
+    },
+    {
+        "id": 22,
+        "title": "Perancangan Brand Activation Morphies dengan Tema \"Morphies Haseyo\" yang Sesuai bagi Fans Kpop Guna Mendekatkan Brand kepada Konsumen",
+        "description": "Morphies Haseyo merupkaan project brand activation dari brand Morphies yang bergerak di bidang merchandise Kpop",
+        "video": "https://youtube.com/embed/Nx3zCJuzJ4s",
+        "name": "Celia Regina Florencine",
+        "nim": "0206041910019",
+        "ig": "@morphies.id",
+        "wa": "+62-8121-6335-357",
+        "qrlink": "https://www.instagram.com/morphies.id/",
+        "highlight": false,
+        "categoryId": 6
+    },
+    {
+        "id": 23,
+        "title": "Perancangan Brand Activation utuk OOPZ dengan tema #ConnectToOOPZ agar Menumbuhkan Kecintaan Gen Z Terhadap Streetwear Lokal",
+        "description": "Permasalahan pada brand OOPZ adalah kurangnya awareness, sehingga diciptakan aktivasi melalui media Instagram untuk meningkatkan kedekatan antara brand dan user melalui variasi konten yang diberikan sehingga dapat terciptanya engagement.",
+        "video": "https://youtube.com/embed/ig10ljCa_Ts",
+        "name": "Senon Theodore",
+        "nim": "0206041910011",
+        "ig": "@oopz_streetwear",
+        "wa": "+62-898-400-3886",
+        "qrlink": "https://instagram.com/oopz_streetwear?igshid=MzNlNGNkZWQ4Mg==",
+        "highlight": false,
+        "categoryId": 4
     }
 ]

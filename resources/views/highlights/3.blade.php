@@ -24,8 +24,8 @@
             <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8" id="container">
                 <div class="m-auto">
                     <iframe
-                        width="260"
-                        height="460"
+                        width="688"
+                        height="459"
                         src={{ $project['video'] }}
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
