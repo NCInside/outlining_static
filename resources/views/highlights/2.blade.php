@@ -1,20 +1,22 @@
 @extends('components.layout')
 
+@section('color', '#000000')
+
 @section('bg', "/projectbg/" . $project['nim'] . ".png")
 
 @section('content')
 
-<div class="text-white">
+<div class="text-white pt-[72px]">
     <div class="py-4">
-        <button id="backButton" class="text-lg hebrew font-bold py-2 px-6 bg-gradient-to-r from-blue-600 text-black">< Back</button>
+        <button id="backButton" class="text-lg hebrew font-bold py-2 px-6 bg-gradient-to-r from-blue-600 fixed top-20 left-0 z-50">< Back</button>
     </div>
-    <div class="flex flex-wrap-reverse w-full justify-around justify-items-center place-items-center pt-8 px-6">
+    <div class="flex flex-wrap-reverse w-full md:justify-between justify-around justify-items-center place-items-center pt-8 px-12">
         <div class="text-center md:text-left w-96 md:w-2/5 pt-12 md:pt-0">
             <p class="text-4xl md:text-2xl min-[1015px]:text-4xl min-[1300px]:text-5xl erica text-blue-600">{{ $project['title'] }}</p>
             <br>
             <p class="text-lg hebrew md:text-base min-[1300px]:text-xl font-bold text-blue-600">{{ $project['description'] }}</p>
         </div>
-        <div class="w-96 md:w-2/5">
+        <div class="w-96 md:w-[45%]">
             <img src="/projectphoto/{{ $project['nim'] }}.png" alt="{{ $project['title'] }}" class="m-auto">
         </div>
     </div>
@@ -67,8 +69,8 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-wrap-reverse w-full justify-center justify-items-center items-end place-items-center px-6 py-16">
-        <div class="w-full md:w-5/12 pt-12 md:pt-0 flex flex-col gap-x-6 items-center min-[1198px]:pl-16">
+    <div class="flex flex-wrap-reverse w-full justify-between justify-items-center items-end place-items-center px-12 py-16">
+        <div class="w-full md:w-5/12 pt-12 md:pt-0 flex flex-col gap-x-6 items-center">
             <div class="w-full pb-6 md:pb-12 md:pt-12 text-center md:text-left">
                 <p class="md:text-6xl sm:text-5xl text-4xl erica pb-2 md:pb-6 text-blue-600">{{ $project['name']}}</p>
                 <p class="md:text-2xl sm:text-xl text-lg erica text-blue-600">{{ $project['nim'] }}</p>

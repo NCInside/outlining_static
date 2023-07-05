@@ -1,10 +1,15 @@
 @extends('components.layout')
 
+@section('color', '#000000')
+
 @section('bg', ($category ? "/categorybg/".$category['img'].".png" : "bg-home.png"))
 
 @section('content')
 
-<div class="text-center pt-8">
+<div class="text-center pt-24">
+    <div class="py-4">
+        <button id="backButton" class="text-white text-lg hebrew font-bold py-2 px-6 bg-gradient-to-r from-[#000000] fixed top-20 left-0 z-50">< Back</button>
+    </div>
     <p class="text-white text-6xl erica pb-12">{{ $category ? $category['name'] : 'All' }}</p>
     <div class='grid gap-y-8 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 px-12 py-8 place-items-center'>
         @foreach($projects as $project)
@@ -15,5 +20,13 @@
         {{ $projects->links('vendor.pagination.tailwind') }}
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById('backButton').addEventListener('click', function() {
+            history.back();
+        });
+    });
+</script>
 
 @endsection

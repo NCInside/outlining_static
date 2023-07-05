@@ -17,7 +17,7 @@
     </head>
 <body>
     <div class="min-h-screen bg-cover bg-no-repeat overflow-x-hidden" style="background-image: url(@yield('bg'))">
-        <nav x-data="{ open: false }" class="bg-gradient-to-b from-[#000000] text-center">
+        <nav x-data="{ open: false }" class="fixed top-0 left-0 right-0 bg-gradient-to-b from-[@yield('color')] text-center z-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-20 w-full">
                     <div class="flex justify-between w-full">
@@ -54,7 +54,10 @@
                         {{ __('Home') }}
                     </x-dropdown-link>
                     <x-dropdown-link :href="route('index')">
-                        {{ __("Student's Final Project") }}
+                        {{ __("Student’s Final Project") }}
+                    </x-dropdown-link>
+                    <x-dropdown-link :href="'https://www.uc.ac.id/vcd/'">
+                        {{ __("VCD’s Website") }}
                     </x-dropdown-link>
                 </div>
             </div>

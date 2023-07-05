@@ -1,10 +1,12 @@
 @extends('components.layout')
 
+@section('color', '#000000')
+
 @section('bg', "bg-home.png")
 
 @section('content')
 
-<div class='grid place-items-center w-full'>
+<div class='grid place-items-center w-full pt-14'>
     <div class='text-center pt-16'>
         <p class='text-white text-xl font-bold hebrew'>Welcome to<br/>Visual Communication Design’s</p>
         <p class='text-white text-6xl py-8 erica'>Outlining Design 2023</p>
