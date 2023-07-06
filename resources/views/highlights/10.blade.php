@@ -25,14 +25,17 @@
         <div class="relative">
             <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8" id="container">
                 <div class="m-auto">
-                    <iframe
+                    {{-- <iframe
                         width="688"
                         height="459"
                         src={{ $project['video'] }}
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
-                    </iframe>
+                    </iframe> --}}
+                    <a href="https://www.youtube.com/watch?v={{ $project['video'] }}" target="_blank">
+                        <img class="min-w-[688px] min-h-[459px]" src="http://img.youtube.com/vi/{{ $project['video'] }}/hqdefault.jpg">
+                    </a>
                 </div>
                 @foreach ($galleries as $key => $galery)
                     <div class="galery-cards hover:transform hover:scale-110 transition duration-500">
