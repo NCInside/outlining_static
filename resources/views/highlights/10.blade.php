@@ -24,7 +24,7 @@
         <p class='erica text-2xl'>Final Project Gallery</p>
         <div class="relative">
             <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8" id="container">
-                <div class="m-auto">
+                <div class="m-auto relative">
                     {{-- <iframe
                         width="688"
                         height="459"
@@ -36,6 +36,11 @@
                     <a href="https://www.youtube.com/watch?v={{ $project['video'] }}" target="_blank">
                         <img class="min-w-[688px] min-h-[459px]" src="http://img.youtube.com/vi/{{ $project['video'] }}/hqdefault.jpg">
                     </a>
+                    <div class="absolute inset-y-0 inset-x-0 flex items-center justify-center">
+                        <a href="https://www.youtube.com/watch?v={{ $project['video'] }}" target="_blank">
+                            <img class="w-20" src="{{ asset('utube-red.svg') }}">
+                        </a>
+                    </div>
                 </div>
                 @foreach ($galleries as $key => $galery)
                     <div class="galery-cards hover:transform hover:scale-110 transition duration-500">
