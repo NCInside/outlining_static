@@ -444,16 +444,16 @@
     },
     {
         "id": 35,
-        "title": "",
-        "description": "",
-        "video": "",
-        "name": "",
-        "nim": "",
-        "ig": "",
-        "wa": "",
-        "qrlink": "",
-        "highlight": false,
-        "categoryId": 1
+        "title": "Hello it's Mondu",
+        "description": "Hello it's Mondu merupakan komik digital yang mempunyai misi untuk menyebarkan dan mengajak generasi Z untuk menerapkan self love dan social media positivity. Mondu akan membagikan banyak kisah dalam bentuk komik pendek dalam platform Instagram @helloitsmondu dalam beragam konten yang interaktif, member hiburan, inspirasi, dan motivasi positif bagi generasi Z.",
+        "video": "https://youtube.com/embed/GYIUKYCZfxM",
+        "name": "Jade Victoria Fortuna",
+        "nim": "0206041910006",
+        "ig": "@helloitsmondu",
+        "wa": "+62 896 4895 5190",
+        "qrlink": "https://instagram.com/helloitsmondu?igshid=MzRlODBiNWFlZA==",
+        "highlight": true,
+        "categoryId": 5
     },
     {
         "id": 36,
