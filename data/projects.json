@@ -457,16 +457,16 @@
     },
     {
         "id": 36,
-        "title": "",
-        "description": "",
-        "video": "",
-        "name": "",
-        "nim": "",
-        "ig": "",
-        "wa": "",
-        "qrlink": "",
-        "highlight": false,
-        "categoryId": 1
+        "title": "IFOUNDME",
+        "description": "Sebuah media identifikasi minat dan bakat vang dibuat dalam bentuk buku pembelajaran. Konsep perpaduan inovatif dengan mengaplikasikan seiumlah ilustrasi dan aktivitas kecil sebagai sarana visualisasi dalam proses membaca pembaca.",
+        "video": "https://youtube.com/embed/o3Q3xVUZ4h0",
+        "name": "Christian Arya Dauhiong",
+        "nim": "0206041910032",
+        "ig": "@chrisdauhiong",
+        "wa": "+62-8125-456-1777",
+        "qrlink": "https://www.investopedia.com/terms/q/quick-response-qr-code.asp",
+        "highlight": true,
+        "categoryId": 5
     },
     {
         "id": 37,
