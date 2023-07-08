@@ -431,16 +431,16 @@
     },
     {
         "id": 34,
-        "title": "",
-        "description": "",
-        "video": "",
-        "name": "",
-        "nim": "",
-        "ig": "",
-        "wa": "",
-        "qrlink": "",
-        "highlight": false,
-        "categoryId": 1
+        "title": "Frame&Business",
+        "description": "Frame&Business menyediakan jasa fotografi makanan dengan harga yang terjangkau namun dengan hasil yang memuaskan. Kami menyasar para pemilik bisnis UMKM makanan di area Surabava dan sekitarnya.",
+        "video": "https://youtube.com/embed/-Ia5FB6WYmw",
+        "name": "Pratama Putra Ferry H.",
+        "nim": "0206041910028",
+        "ig": "@fnb_portfolio",
+        "wa": "+62-878-6329-6511",
+        "qrlink": "https://qrs.ly/lcer4p7",
+        "highlight": true,
+        "categoryId": 3
     },
     {
         "id": 35,
