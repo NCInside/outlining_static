@@ -584,18 +584,5 @@
         "qrlink": "https://instagram.com/madeby_olive?igshid=MzRlODBiNWFlZA==",
         "highlight": true,
         "categoryId": 6
-    },
-    {
-        "id": 46,
-        "title": "",
-        "description": "",
-        "video": "",
-        "name": "",
-        "nim": "",
-        "ig": "",
-        "wa": "",
-        "qrlink": "",
-        "highlight": false,
-        "categoryId": 1
     }
 ]
