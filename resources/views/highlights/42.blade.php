@@ -21,13 +21,13 @@
         </div>
     </div>
     <div class='text-center grid grid-cols-1 justify-center pt-16 px-2'>
-        <p class='erica text-2xl'>Final Project Gallery</p>
+        <p class='erica text-2xl text-[#4fb581] md:text-white'>Final Project Gallery</p>
         <div class="relative">
-            <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8" id="container">
+            <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8 place-items-center" id="container">
                 <div class="m-auto">
                     <iframe
-                        width="260"
-                        height="460"
+                        width="688"
+                        height="459"
                         src={{ $project['video'] }}
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -76,7 +76,7 @@
                 <p class="md:text-2xl sm:text-xl text-lg erica">{{ $project['nim'] }}</p>
             </div>
             {{-- Contact Card --}}
-            <div class="grid grid-cols-2 rounded-lg bg-[#303030] p-5 w-full gap-x-6 min-[541px]:w-3/4 md:w-full">
+            <div class="grid grid-cols-2 rounded-lg bg-gradient-to-b from-[#128559] p-5 w-full gap-x-6 min-[541px]:w-3/4 md:w-full">
                 <div>
                     <p class="min-[1198px]:text-4xl md:text-2xl min-[404px]:text-3xl text-2xl hebrew font-bold pb-1 md:pb-3">Contact: </p>
                     <p class="min-[1198px]:text-2xl md:text-lg min-[404px]:text-xl text-lg overflow-wrap break-words hebrew font-bold">{{ $project['ig'] }}</p>

@@ -6,28 +6,28 @@
 
 @section('content')
 
-<div class="text-white pt-[72px]">
+<div class="text-[#fde100] pt-[72px]">
     <div class="py-4">
-        <button id="backButton" class="text-lg hebrew font-bold py-2 px-6 bg-gradient-to-r from-[#000000] fixed top-20 left-0 z-50">< Back</button>
+        <button id="backButton" class="text-white text-lg hebrew font-bold py-2 px-6 bg-gradient-to-r from-[#000000] fixed top-20 left-0 z-50">< Back</button>
     </div>
     <div class="flex flex-wrap-reverse w-full md:justify-between justify-around justify-items-center place-items-center pt-8 px-12">
         <div class="text-center md:text-left w-96 md:w-2/5 pt-12 md:pt-0">
             <p class="text-4xl md:text-2xl min-[1015px]:text-4xl min-[1300px]:text-5xl erica">{{ $project['title'] }}</p>
             <br>
-            <p class="text-lg hebrew md:text-base min-[1300px]:text-xl font-bold">{{ $project['description'] }}</p>
+            <p class="text-lg hebrew md:text-base min-[1300px]:text-xl font-bold text-black">{{ $project['description'] }}</p>
         </div>
         <div class="w-96 md:w-[45%]">
             <img src="/projectphoto/{{ $project['nim'] }}.png" alt="{{ $project['title'] }}" class="m-auto">
         </div>
     </div>
     <div class='text-center grid grid-cols-1 justify-center pt-16 px-2'>
-        <p class='erica text-2xl'>Final Project Gallery</p>
+        <p class='erica text-2xl text-[#dc6173]'>Final Project Gallery</p>
         <div class="relative">
-            <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8" id="container">
+            <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8 place-items-center" id="container">
                 <div class="m-auto">
                     <iframe
-                        width="260"
-                        height="460"
+                        width="688"
+                        height="459"
                         src={{ $project['video'] }}
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -73,10 +73,10 @@
         <div class="w-full md:w-5/12 pt-12 md:pt-0 flex flex-col gap-x-6 items-center">
             <div class="w-full pb-6 md:pb-12 md:pt-12 text-center md:text-left">
                 <p class="md:text-6xl sm:text-5xl text-4xl erica pb-2 md:pb-6">{{ $project['name']}}</p>
-                <p class="md:text-2xl sm:text-xl text-lg erica">{{ $project['nim'] }}</p>
+                <p class="md:text-2xl sm:text-xl text-lg erica text-[#d65255]">{{ $project['nim'] }}</p>
             </div>
             {{-- Contact Card --}}
-            <div class="grid grid-cols-2 rounded-lg bg-[#303030] p-5 w-full gap-x-6 min-[541px]:w-3/4 md:w-full">
+            <div class="grid grid-cols-2 rounded-lg bg-gradient-to-b from-[#86629d] p-5 w-full gap-x-6 min-[541px]:w-3/4 md:w-full text-white">
                 <div>
                     <p class="min-[1198px]:text-4xl md:text-2xl min-[404px]:text-3xl text-2xl hebrew font-bold pb-1 md:pb-3">Contact: </p>
                     <p class="min-[1198px]:text-2xl md:text-lg min-[404px]:text-xl text-lg overflow-wrap break-words hebrew font-bold">{{ $project['ig'] }}</p>
