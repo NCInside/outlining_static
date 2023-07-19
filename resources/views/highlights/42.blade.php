@@ -2,7 +2,7 @@
 
 @section('color', '#000000')
 
-@section('bg', "/projectbg/" . $project['nim'] . ".png")
+@section('bg', asset("/projectbg/" . $project['nim'] . ".png"))
 
 @section('content')
 
@@ -12,12 +12,12 @@
     </div>
     <div class="flex flex-wrap-reverse w-full md:justify-between justify-around justify-items-center place-items-center pt-8 px-12">
         <div class="text-center md:text-left w-96 md:w-2/5 pt-12 md:pt-0">
-            <p class="text-4xl md:text-2xl min-[1015px]:text-4xl min-[1300px]:text-5xl erica">{{ $project['title'] }}</p>
+            <p class="text-5xl min-[1015px]:text-6xl min-[1300px]:text-7xl erica">{{ $project['title'] }}</p>
             <br>
             <p class="text-lg hebrew md:text-base min-[1300px]:text-xl font-bold">{{ $project['description'] }}</p>
         </div>
         <div class="w-96 md:w-[45%]">
-            <img src="/projectphoto/{{ $project['nim'] }}.png" alt="{{ $project['title'] }}" class="m-auto">
+            <img src="{{ asset('projectphoto/'. $project['nim']  .'.png') }}" alt="{{ $project['title'] }}" class="m-auto">
         </div>
     </div>
     <div class='text-center grid grid-cols-1 justify-center pt-16 px-2'>
@@ -26,8 +26,7 @@
             <div class="flex overflow-x-auto flex-shrink-0 gap-x-8 p-8 place-items-center" id="container">
                 <div class="m-auto">
                     <iframe
-                        width="688"
-                        height="459"
+                        id="projectIframe"
                         src={{ $project['video'] }}
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,20 +34,27 @@
                     </iframe>
                 </div>
                 @foreach ($galleries as $key => $galery)
-                    <div class="galery-cards hover:transform hover:scale-110 transition duration-500">
-                        <button data-modal-target={{ $galery }} data-modal-toggle={{ $galery }}>
-                            <div class="relative w-80">
-                                <img class="object-cover" src="{{ $galery }}" alt={{ $galery }}>
-                            </div>
-                        </button>
-                    </div>
-                    <div id={{ $galery }} tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                        <div class="relative w-full max-w-2xl max-h-full">
-                            <div class="relative bg-white rounded-lg shadow flex justify-center items-center p-10">
-                                <img class="object-cover" src="{{ $galery }}" alt={{ $galery }}>
+                    @if (Str::endsWith($galery, '.png'))
+                        <div class="galery-cards hover:transform hover:scale-110 transition duration-500">
+                            <button data-modal-target={{ $galery }} data-modal-toggle={{ $galery }}>
+                                <div class="relative w-80">
+                                    <img class="object-cover" src="{{ $galery }}" alt={{ $galery }}>
+                                </div>
+                            </button>
+                        </div>
+                        <div id={{ $galery }} tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                            <div class="relative w-full max-w-2xl max-h-full">
+                                <div class="relative bg-white rounded-lg shadow flex justify-center items-center p-10">
+                                    <img class="object-cover" src="{{ $galery }}" alt={{ $galery }}>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @endif
+                    @if (Str::endsWith($galery, '.mp4'))
+                        <video class="max-h-96" controls>
+                            <source src="{{ $galery }}" type="video/mp4">
+                        </video>
+                    @endif
                 @endforeach
             </div>
 
@@ -85,13 +91,13 @@
                 <div>
                     <p class="min-[1198px]:text-4xl min-[404px]:text-3xl text-2xl hebrew font-bold pb-3">Scan / click here!</p>
                     <a href={{ $project['qrlink'] }} target="_blank">
-                        <img src="/projectqr/{{ $project['nim'] }}.png" alt="{{ $project['title'] }}">
+                        <img src="{{ asset('projectqr/'. $project['nim'] .'.png') }}" alt="{{ $project['title'] }}">
                     </a>
                 </div>
             </div>
         </div>
         <div class="w-96 md:w-7/12 h-full m-auto flex justify-center items-center">
-            <img src="/projectprofile/{{ $project['nim']}}.png" alt="{{ $project['name'] }}" class="max-w-full max-h-full">
+            <img src="{{ asset('projectprofile/'. $project['nim'] .'.png') }}" alt="{{ $project['name'] }}" class="max-w-full max-h-full">
         </div>
     </div>
 </div>
@@ -102,9 +108,13 @@
             history.back();
         });
 
+        const iframe = document.getElementById('projectIframe');
         const buttonRight = document.getElementById('scrollRightBtn');
         const buttonLeft = document.getElementById('scrollLeftBtn');
         let scrollInterval;
+
+        setIframeSize();
+        window.addEventListener('resize', setIframeSize);
 
         buttonRight.addEventListener('mousedown', handleScrollRight);
         buttonLeft.addEventListener('mousedown', handleScrollLeft);
@@ -130,6 +140,15 @@
 
         function clearScrollInterval() {
         clearInterval(scrollInterval);
+        }
+
+        function setIframeSize() {
+        const screenWidth = window.innerWidth;
+        const iframeWidth = screenWidth < 768 ? (screenWidth-24) : 688;
+        const iframeHeight = screenWidth < 768 ? (screenWidth-24) * (459 / 688) : 459;
+
+        iframe.setAttribute('width', iframeWidth);
+        iframe.setAttribute('height', iframeHeight);
         }
     });
 </script>
